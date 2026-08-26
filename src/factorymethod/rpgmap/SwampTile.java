@@ -1,0 +1,10 @@
+package factorymethod.rpgmap;
+
+public class SwampTile extends Tile {
+    @Override
+    public char getCharacter() { return 'S'; }
+    @Override
+    public String getType() { return "swamp"; }
+    @Override
+    public void action() {}
+}
