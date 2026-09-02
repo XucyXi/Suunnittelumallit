@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Department extends OrganizationComponent {
-    private List<OrganizationComponent> components = new ArrayList<>();
+    private final List<OrganizationComponent> components = new ArrayList<>();
 
     public Department(String name) {
         super(name);
